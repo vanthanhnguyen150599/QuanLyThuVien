@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="QU&#x1ea2;N L&#xdd; TH&#x1af; VI&#x1ec6;N - M&#x1af;&#x1ee2;N S&#xc1;CH"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="0" red="cc" type="rgb"/>
+    </Property>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Default Cursor"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="199" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="222" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="240" max="-2" attributes="0"/>
+              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jTextField_MATT" max="32767" attributes="0"/>
+                          <Component id="jComboBox_MS1" pref="143" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton_XACNHAN" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
+                              <Component id="jButton_RESET" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="147" max="-2" attributes="0"/>
+                              <Component id="jButton_BACK" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jComboBox_MS2" min="-2" pref="143" max="-2" attributes="0"/>
+                                          <Component id="jComboBox_MADG" alignment="0" min="-2" pref="143" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jComboBox_NGAYMUON_NGAY" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel5" min="-2" pref="10" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jComboBox_NGAYMUON_THANG" min="-2" pref="54" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" min="-2" pref="5" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jComboBox_NGAYMUON_NAM" min="-2" pref="61" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jComboBox_MS3" min="-2" pref="143" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jTextField_TENSACH3" min="-2" pref="190" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jTextField_TENSACH2" min="-2" pref="190" max="-2" attributes="0"/>
+                                          <Component id="jTextField_THUTHU_TEN" min="-2" pref="190" max="-2" attributes="0"/>
+                                          <Component id="jTextField_DOCGIA_TEN" min="-2" pref="190" max="-2" attributes="0"/>
+                                          <Component id="jTextField_TENSACH1" min="-2" pref="190" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="37" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBox_MADG" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField_DOCGIA_TEN" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField_MATT" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField_THUTHU_TEN" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel3" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="jComboBox_MS1" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="jLabel12" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="jTextField_TENSACH1" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel14" min="-2" pref="21" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="77" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField_TENSACH2" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="jComboBox_MS2" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jComboBox_MS3" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="jLabel15" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="jTextField_TENSACH3" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="39" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jComboBox_NGAYMUON_NGAY" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="jComboBox_NGAYMUON_THANG" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBox_NGAYMUON_NAM" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="39" pref="39" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton_XACNHAN" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton_RESET" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton_BACK" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="27" max="32767" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="180" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="PHI&#x1ebe;U M&#x1af;&#x1ee2;N S&#xc1;CH"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xc3; &#x110;&#x1ecc;C GI&#x1ea2;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox_MADG">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox_MADGActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="int temp = 0;"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="//System.out.println(x);&#xa;    Connection connect = ketnoicsdl.layKetNoi();&#xa;    try&#xa;    {&#xa;        Statement st = connect.createStatement();&#xa;        ResultSet rs = st.executeQuery(&quot;SELECT MADG FROM DOCGIA&quot;);&#xa;        while (rs.next())&#xa;        {&#xa;            jComboBox_MADG.addItem(rs.getString(&quot;MADG&quot;));&#xa;        //    System.out.println(temp);&#xa;        }&#xa;       &#xa;    }&#xa;    catch(SQLException e)&#xa;    {&#xa;&#xa;    }&#xa;     &#xa; if (jComboBox_MADG.getItemCount() != 0)&#xa;{&#xa;    jComboBox_MADG.setSelectedIndex(0);&#xa;    String MADG = jComboBox_MADG.getItemAt(jComboBox_MADG.getSelectedIndex());&#xa;    try&#xa;    {&#xa;        String TEN = &quot;&quot;;&#xa;        Statement st = connect.createStatement();&#xa;        ResultSet rs = st.executeQuery(&quot;EXEC USP_THONGTINDOCGIA @MADG = &apos;&quot; + MADG + &quot;&apos;&quot;);&#xa;        while (rs.next())&#xa;        {&#xa;            TEN = rs.getString(&quot;HO&quot;) + &quot; &quot; + rs.getString(&quot;TEN&quot;);&#xa;        }&#xa;        jTextField_DOCGIA_TEN.setText(TEN);&#xa;    }&#xa;    catch(SQLException e)&#xa;    {&#xa;&#xa;    }&#xa;}"/>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xc3; S&#xc1;CH:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox_MS1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox_MS1ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if (jComboBox_MADG.getItemCount() != 0)&#xa;{&#xa;    connect = ketnoicsdl.layKetNoi();&#xa;    try&#xa;    {&#xa;        Statement st = connect.createStatement();&#xa;        ResultSet rs = st.executeQuery(&quot;EXEC USP_SACHCOTHEMUON&quot;);&#xa;        while (rs.next())&#xa;        {&#xa;            String MS = rs.getString(&quot;MS&quot;);&#xa;            if (MS.length() != 0) jComboBox_MS1.addItem(MS);&#xa;        }&#xa;    }&#xa;    catch (SQLException e)&#xa;    {&#xa;&#xa;    }&#xa;    if(jComboBox_MS1.getItemCount() != 0) MS01 = jComboBox_MS1.getItemAt(0);&#xa;}"/>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NG&#xc0;Y M&#x1af;&#x1ee2;N:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox_NGAYMUON_NGAY">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox_NGAYMUON_NGAYActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String ngay31[] = new String[32];&#xa;ngay31[0] = &quot;dd&quot;;&#xa;for (int i = 1; i &lt; 32; i++)&#xa;{&#xa;    ngay31[i] = String.valueOf(i);&#xa;}"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if (jComboBox_MADG.getItemCount() != 0){&#xa;    for (int i = 0; i &lt; 32; i++)&#xa;     {&#xa;        jComboBox_NGAYMUON_NGAY.addItem(ngay31[i]);&#xa;     }&#xa;     jComboBox_NGAYMUON_NGAY.setSelectedIndex(0);&#xa;     &#xa;    &#xa;    jComboBox_NGAYMUON_NGAY.setSelectedIndex(Integer.valueOf(Integer.valueOf(this.ngay)));&#xa;}"/>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox_NGAYMUON_THANG">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox_NGAYMUON_THANGActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String thang[] = new String[13];&#xa;thang[0] = &quot;mm&quot;;&#xa;for (int i = 1; i &lt; 13; i++)&#xa;{&#xa;    thang[i] = String.valueOf(i);&#xa;}"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if (jComboBox_MADG.getItemCount() != 0){&#xa;    for (int i = 0 ; i &lt; 13; i++)&#xa;    {&#xa;        jComboBox_NGAYMUON_THANG.addItem(thang[i]);&#xa;    }&#xa;    jComboBox_NGAYMUON_THANG.setSelectedIndex(Integer.valueOf(this.thang));&#xa;}"/>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox_NGAYMUON_NAM">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox_NGAYMUON_NAMActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String nam[] = new String[71];&#xa;nam[0] = &quot;yyyy&quot;;&#xa;for (int i = 1; i &lt;= 70; i++)&#xa;{&#xa;    nam[i] = String.valueOf(i+1949);&#xa;}"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if (jComboBox_MADG.getItemCount() != 0){&#xa;    jComboBox_NGAYMUON_NAM.addItem(nam[0]);&#xa;    for (int i = 70; i &gt;= 1; i--)&#xa;    {&#xa;        jComboBox_NGAYMUON_NAM.addItem(nam[i]);&#xa;    }&#xa;    jComboBox_NGAYMUON_NAM.setSelectedIndex(2020-Integer.valueOf(this.nam));&#xa;}"/>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xc3; TH&#x1ee6; TH&#x1af;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton_XACNHAN">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="X&#xc1;C NH&#x1eac;N"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_XACNHANActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton_RESET">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#xc0;M L&#x1ea0;I"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_RESETActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton_BACK">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUAY L&#x1ea0;I"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_BACKActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="H&#x1ecc; V&#xc0; T&#xca;N:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_DOCGIA_TEN">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="H&#x1ecc; V&#xc0; T&#xca;N:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_THUTHU_TEN">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_MATT">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField_MATTActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="jTextField_MATT.setText(login.MATT);&#xa;connect = ketnoicsdl.layKetNoi();&#xa;try&#xa;{&#xa;    Statement st = connect.createStatement();&#xa;    ResultSet rs = st.executeQuery(&quot;EXEC USP_THONGTINTHUTHU @MATT = &apos;&quot; + login.MATT + &quot;&apos;&quot;);&#xa;    while (rs.next())&#xa;    {&#xa;        jTextField_THUTHU_TEN.setText(rs.getString(&quot;HO&quot;) + &quot; &quot; + rs.getString(&quot;TEN&quot;));&#xa;    }&#xa;}&#xa;catch(SQLException e)&#xa;{&#xa;&#xa;}"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T&#xca;N S&#xc1;CH:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_TENSACH1">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if (jComboBox_MADG.getItemCount() != 0 &amp;&amp; jComboBox_MS1.getItemCount() != 0){    &#xa;        int MS;&#xa;        String TENSACH = new String(); &#xa;        String selected = jComboBox_MS1.getItemAt(jComboBox_MS1.getSelectedIndex());&#xa;        MS = Integer.parseInt(selected);&#xa;        connect = ketnoicsdl.layKetNoi();&#xa;        try&#xa;        {&#xa;            Statement st = connect.createStatement();&#xa;            ResultSet rs = st.executeQuery(&quot;DECLARE @MS int SET @MS = &quot; + String.valueOf(MS) + &quot; EXEC USP_TENSACH @MS&quot;);&#xa;            while (rs.next())&#xa;            {&#xa;                TENSACH = rs.getString(&quot;TENSACH&quot;);&#xa;            }&#xa;        }&#xa;        catch(SQLException e)&#xa;        {&#xa;&#xa;        }&#xa;        jTextField_TENSACH1.setText(TENSACH);&#xa;    }"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T&#xca;N S&#xc1;CH:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_TENSACH2">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xc3; S&#xc1;CH:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox_MS2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox_MS2ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if (jComboBox_MADG.getItemCount() != 0)&#xa;{&#xa;    jComboBox_MS2.addItem(&quot;Ch&#x1ecd;n s&#xe1;ch&quot;);&#xa;    MS02 = null;&#xa;    connect = ketnoicsdl.layKetNoi();&#xa;    try&#xa;    {&#xa;        Statement st = connect.createStatement();&#xa;        ResultSet rs = st.executeQuery(&quot;EXEC USP_SACHCOTHEMUON&quot;);&#xa;        while (rs.next())&#xa;        {&#xa;            String MS2 = rs.getString(&quot;MS&quot;);&#xa;        //    System.out.println((jComboBox_MS1.getItemAt(jComboBox_MS1.getSelectedIndex()).equalsIgnoreCase(MS2)));&#xa;            if (!(jComboBox_MS1.getItemAt(jComboBox_MS1.getSelectedIndex()).equals(MS2)))&#xa;            jComboBox_MS2.addItem(MS2);&#xa;        }&#xa;    }&#xa;    catch (SQLException e)&#xa;    {&#xa;&#xa;    }&#xa;}"/>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T&#xca;N S&#xc1;CH:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField_TENSACH3">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xc3; S&#xc1;CH:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox_MS3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox_MS3ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if (jComboBox_MADG.getItemCount() != 0)&#xa;{&#xa;    jComboBox_MS3.addItem(&quot;Ch&#x1ecd;n s&#xe1;ch&quot;);&#xa;    MS03 = null;&#xa;    String temp1 = jComboBox_MS1.getItemAt(jComboBox_MS1.getSelectedIndex());&#xa;    String temp2 = jComboBox_MS2.getItemAt(jComboBox_MS2.getSelectedIndex());&#xa;    connect = ketnoicsdl.layKetNoi();&#xa;    try&#xa;    {&#xa;        Statement st = connect.createStatement();&#xa;        ResultSet rs = st.executeQuery(&quot;EXEC USP_SACHCOTHEMUON&quot;);&#xa;        while (rs.next())&#xa;        {&#xa;            String MS3 = rs.getString(&quot;MS&quot;);&#xa;        //    System.out.println((jComboBox_MS1.getItemAt(jComboBox_MS1.getSelectedIndex()).equalsIgnoreCase(MS2)));&#xa;            if (!(temp1.equals(MS3)) &amp;&amp; !(temp2.equals(MS3)))&#xa;            jComboBox_MS3.addItem(MS3);&#xa;        }&#xa;    }&#xa;    catch (SQLException e)&#xa;    {&#xa;&#xa;    }&#xa;}"/>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable_MUON">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="0">
+                <Column editable="false" title="M&#xe3; &#x111;&#x1ecd;c gi&#x1ea3;" type="java.lang.String"/>
+                <Column editable="false" title="H&#x1ecd; v&#xe0; t&#xea;n" type="java.lang.String"/>
+                <Column editable="false" title="T&#xea;n s&#xe1;ch" type="java.lang.String"/>
+                <Column editable="false" title="Ng&#xe0;y m&#x1b0;&#x1ee3;n" type="java.lang.String"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x110;&#x1ecc;C GI&#x1ea2; &#x110;ANG M&#x1af;&#x1ee2;N"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
